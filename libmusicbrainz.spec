@@ -2,7 +2,7 @@
 Summary: Library for accessing MusicBrainz servers
 Name: libmusicbrainz
 Version: 2.1.5
-Release: 15%{?dist}
+Release: 17%{?dist}
 License: LGPLv2+
 Group: System Environment/Libraries
 URL: http://www.musicbrainz.org/
@@ -75,6 +75,12 @@ make install DESTDIR=$RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.1.5-17
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.1.5-16
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.1.5-15
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
